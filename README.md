@@ -211,7 +211,7 @@ Exemplo de resposta
 Use um comando como o abaixo para mudar o apelido de um guerreiro (obs.: não estou criando um arquivo separado com o corpo da requisição porque aqui trata-se um JSON muito simples)
 
 ```
-curl -d '{ "nickname":"Candeia de Arras" }' -H "Content-Type: application/json" -X PUT http://localhost:8000/knights/5c49219d94ef1a2c51a7160c | python -m json.tool
+$ curl -d '{ "nickname":"Candeia de Arras" }' -H "Content-Type: application/json" -X PUT http://localhost:8000/knights/5c49219d94ef1a2c51a7160c | python -m json.tool
 ```
 Exemplo de resposta
 ```
