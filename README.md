@@ -6,11 +6,12 @@ Esse repositório contém um projeto resposta ao desafio [Knights Challenge](cha
 
 Para executar é necessário:
 
-1) clonar esse repositório
+1) clonar esse repositório e instalar as dependências
 
 ```
 $ git clone https://github.com/gmgall/knights-challenge.git
 $ cd knights-challenge
+$ npm install
 ```
 
 2) definir as variáveis de ambiente
